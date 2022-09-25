@@ -125,7 +125,7 @@ type Message struct {
 	// Temperature in Fahrenheit. Nil if not present in initial JSON.
 	TemperatureF *float64 `json:"temperature_F"`
 	// Humidity (0-100). Nil if not present in initial JSON.
-	Humidity *int32 `json:"humidity"`
+	Humidity *float64 `json:"humidity"`
 	// Power on channel 0 (Watts)
 	Power0W *int32 `json:"power0_W"`
 	// Power on channel 0 (Watts)
